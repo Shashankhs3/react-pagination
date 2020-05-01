@@ -24,7 +24,7 @@ const pagination =({postPerpage,totalPosts,paginate,currentPage})=>{
                     {number}
                     </a>
                 </li>))}
-            {currentPage< totalPosts/postPerpage?<li className="page-item"><a className="page-link"  href="#" onClick={()=>paginate(currentPage+1)}>Next</a></li>:""}
+            {currentPage< totalPosts/postPerpage?<li className="page-item"><a className="page-link"  href="#" onClick={()=>paginate(currentPage+1)}>NEXT</a></li>:""}
 
 
             </ul>
